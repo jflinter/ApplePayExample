@@ -20,7 +20,7 @@ class ShippingRateCalculator: NSObject {
 class func fetchShippingRatesForAddress(address: ABRecord!, completion: (([PKShippingMethod]?, NSError?) -> Void)) {
     
     func urlForAddress(address: ABRecord!) -> NSURL {
-        let base = "https://243569b5.ngrok.com/rates"
+        let base = "https://applepay-shipping-example.herokuapp.com/rates"
         let addressValues : CFTypeRef = ABRecordCopyValue(address, kABPersonAddressProperty).takeRetainedValue();
         if ABMultiValueGetCount(addressValues) > 0 {
             var dict = ABMultiValueCopyValueAtIndex(addressValues, 0).takeRetainedValue() as NSDictionary
