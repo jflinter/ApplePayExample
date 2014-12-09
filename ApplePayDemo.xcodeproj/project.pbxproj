@@ -12,7 +12,6 @@
 		040718DC1A2E5B5D00F1FDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040718DA1A2E5B5D00F1FDC3 /* Main.storyboard */; };
 		040718DE1A2E5B5D00F1FDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040718DD1A2E5B5D00F1FDC3 /* Images.xcassets */; };
 		040718E11A2E5B5D00F1FDC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040718DF1A2E5B5D00F1FDC3 /* LaunchScreen.xib */; };
-		040718ED1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */; };
 		040718F81A2E936D00F1FDC3 /* ShippingRateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040718F71A2E936D00F1FDC3 /* ShippingRateCalculator.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +34,6 @@
 		040718DD1A2E5B5D00F1FDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		040718E01A2E5B5D00F1FDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		040718E61A2E5B5D00F1FDC3 /* ApplePayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		040718EB1A2E5B5D00F1FDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayDemoTests.swift; sourceTree = "<group>"; };
 		040718F61A2E5E2500F1FDC3 /* ApplePayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ApplePayDemo.entitlements; sourceTree = "<group>"; };
 		040718F71A2E936D00F1FDC3 /* ShippingRateCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingRateCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				040718D31A2E5B5D00F1FDC3 /* ApplePayDemo */,
-				040718E91A2E5B5D00F1FDC3 /* ApplePayDemoTests */,
 				040718D21A2E5B5D00F1FDC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,23 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				040718D51A2E5B5D00F1FDC3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		040718E91A2E5B5D00F1FDC3 /* ApplePayDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */,
-				040718EA1A2E5B5D00F1FDC3 /* Supporting Files */,
-			);
-			path = ApplePayDemoTests;
-			sourceTree = "<group>";
-		};
-		040718EA1A2E5B5D00F1FDC3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				040718EB1A2E5B5D00F1FDC3 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040718ED1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
