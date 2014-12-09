@@ -12,17 +12,30 @@
 		040718DC1A2E5B5D00F1FDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040718DA1A2E5B5D00F1FDC3 /* Main.storyboard */; };
 		040718DE1A2E5B5D00F1FDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040718DD1A2E5B5D00F1FDC3 /* Images.xcassets */; };
 		040718E11A2E5B5D00F1FDC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040718DF1A2E5B5D00F1FDC3 /* LaunchScreen.xib */; };
-		040718ED1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */; };
-		040718F81A2E936D00F1FDC3 /* ShippingRateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040718F71A2E936D00F1FDC3 /* ShippingRateCalculator.swift */; };
+		040718F81A2E936D00F1FDC3 /* ShippingRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040718F71A2E936D00F1FDC3 /* ShippingRates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		040718E71A2E5B5D00F1FDC3 /* PBXContainerItemProxy */ = {
+		F85CFA611A37699700C0DCB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 040718C91A2E5B5D00F1FDC3 /* Project object */;
+			containerPortal = F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		F85CFA631A37699700C0DCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		F85CFA651A3769A800C0DCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 040718D01A2E5B5D00F1FDC3;
-			remoteInfo = ApplePayDemo;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -34,22 +47,13 @@
 		040718DB1A2E5B5D00F1FDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040718DD1A2E5B5D00F1FDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		040718E01A2E5B5D00F1FDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		040718E61A2E5B5D00F1FDC3 /* ApplePayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		040718EB1A2E5B5D00F1FDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayDemoTests.swift; sourceTree = "<group>"; };
 		040718F61A2E5E2500F1FDC3 /* ApplePayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ApplePayDemo.entitlements; sourceTree = "<group>"; };
-		040718F71A2E936D00F1FDC3 /* ShippingRateCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingRateCalculator.swift; sourceTree = "<group>"; };
+		040718F71A2E936D00F1FDC3 /* ShippingRates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingRates.swift; sourceTree = "<group>"; };
+		F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		040718CE1A2E5B5D00F1FDC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		040718E31A2E5B5D00F1FDC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				040718D31A2E5B5D00F1FDC3 /* ApplePayDemo */,
-				040718E91A2E5B5D00F1FDC3 /* ApplePayDemoTests */,
 				040718D21A2E5B5D00F1FDC3 /* Products */,
+				F85CFA4C1A37696900C0DCB1 /* Vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				040718D11A2E5B5D00F1FDC3 /* ApplePayDemo.app */,
-				040718E61A2E5B5D00F1FDC3 /* ApplePayDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +86,7 @@
 				040718F61A2E5E2500F1FDC3 /* ApplePayDemo.entitlements */,
 				040718D61A2E5B5D00F1FDC3 /* AppDelegate.swift */,
 				040718D81A2E5B5D00F1FDC3 /* ViewController.swift */,
-				040718F71A2E936D00F1FDC3 /* ShippingRateCalculator.swift */,
+				040718F71A2E936D00F1FDC3 /* ShippingRates.swift */,
 				040718DA1A2E5B5D00F1FDC3 /* Main.storyboard */,
 				040718DD1A2E5B5D00F1FDC3 /* Images.xcassets */,
 				040718DF1A2E5B5D00F1FDC3 /* LaunchScreen.xib */,
@@ -100,21 +103,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		040718E91A2E5B5D00F1FDC3 /* ApplePayDemoTests */ = {
+		F85CFA4C1A37696900C0DCB1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				040718EC1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift */,
-				040718EA1A2E5B5D00F1FDC3 /* Supporting Files */,
+				F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */,
 			);
-			path = ApplePayDemoTests;
+			name = Vendor;
+			path = Alamofire/Source;
 			sourceTree = "<group>";
 		};
-		040718EA1A2E5B5D00F1FDC3 /* Supporting Files */ = {
+		F85CFA5D1A37699700C0DCB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				040718EB1A2E5B5D00F1FDC3 /* Info.plist */,
+				F85CFA621A37699700C0DCB1 /* Alamofire.framework */,
+				F85CFA641A37699700C0DCB1 /* AlamofireTests.xctest */,
 			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,29 +135,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				F85CFA661A3769A800C0DCB1 /* PBXTargetDependency */,
 			);
 			name = ApplePayDemo;
 			productName = ApplePayDemo;
 			productReference = 040718D11A2E5B5D00F1FDC3 /* ApplePayDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		040718E51A2E5B5D00F1FDC3 /* ApplePayDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 040718F31A2E5B5D00F1FDC3 /* Build configuration list for PBXNativeTarget "ApplePayDemoTests" */;
-			buildPhases = (
-				040718E21A2E5B5D00F1FDC3 /* Sources */,
-				040718E31A2E5B5D00F1FDC3 /* Frameworks */,
-				040718E41A2E5B5D00F1FDC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				040718E81A2E5B5D00F1FDC3 /* PBXTargetDependency */,
-			);
-			name = ApplePayDemoTests;
-			productName = ApplePayDemoTests;
-			productReference = 040718E61A2E5B5D00F1FDC3 /* ApplePayDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -172,10 +159,6 @@
 							};
 						};
 					};
-					040718E51A2E5B5D00F1FDC3 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 040718D01A2E5B5D00F1FDC3;
-					};
 				};
 			};
 			buildConfigurationList = 040718CC1A2E5B5D00F1FDC3 /* Build configuration list for PBXProject "ApplePayDemo" */;
@@ -189,13 +172,35 @@
 			mainGroup = 040718C81A2E5B5D00F1FDC3;
 			productRefGroup = 040718D21A2E5B5D00F1FDC3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F85CFA5D1A37699700C0DCB1 /* Products */;
+					ProjectRef = F85CFA5C1A37699700C0DCB1 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				040718D01A2E5B5D00F1FDC3 /* ApplePayDemo */,
-				040718E51A2E5B5D00F1FDC3 /* ApplePayDemoTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F85CFA621A37699700C0DCB1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F85CFA611A37699700C0DCB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F85CFA641A37699700C0DCB1 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = F85CFA631A37699700C0DCB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		040718CF1A2E5B5D00F1FDC3 /* Resources */ = {
@@ -208,13 +213,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040718E41A2E5B5D00F1FDC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -223,26 +221,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				040718D91A2E5B5D00F1FDC3 /* ViewController.swift in Sources */,
-				040718F81A2E936D00F1FDC3 /* ShippingRateCalculator.swift in Sources */,
+				040718F81A2E936D00F1FDC3 /* ShippingRates.swift in Sources */,
 				040718D71A2E5B5D00F1FDC3 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		040718E21A2E5B5D00F1FDC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				040718ED1A2E5B5D00F1FDC3 /* ApplePayDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		040718E81A2E5B5D00F1FDC3 /* PBXTargetDependency */ = {
+		F85CFA661A3769A800C0DCB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 040718D01A2E5B5D00F1FDC3 /* ApplePayDemo */;
-			targetProxy = 040718E71A2E5B5D00F1FDC3 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			targetProxy = F85CFA651A3769A800C0DCB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -373,40 +363,6 @@
 			};
 			name = Release;
 		};
-		040718F41A2E5B5D00F1FDC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ApplePayDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePayDemo.app/ApplePayDemo";
-			};
-			name = Debug;
-		};
-		040718F51A2E5B5D00F1FDC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ApplePayDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePayDemo.app/ApplePayDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,15 +380,6 @@
 			buildConfigurations = (
 				040718F11A2E5B5D00F1FDC3 /* Debug */,
 				040718F21A2E5B5D00F1FDC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		040718F31A2E5B5D00F1FDC3 /* Build configuration list for PBXNativeTarget "ApplePayDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				040718F41A2E5B5D00F1FDC3 /* Debug */,
-				040718F51A2E5B5D00F1FDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
